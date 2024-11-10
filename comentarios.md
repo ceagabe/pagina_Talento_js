@@ -1,1 +1,0 @@
-https://web.dev/learn/css?hl=es   otro machete, este para leer jaja creo que ya lo había pasado por discord

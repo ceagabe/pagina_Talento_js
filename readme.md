@@ -52,13 +52,42 @@ Pie de página:
 Estilos para el formulario y los enlaces.
 Ajustamos el tamaño y la disposición de los iconos de redes sociales.
 
+
+
+
+
 Media Queries:
+Pantallas grandes y medianas (tablets):
+Ajustamos el tamaño del logo y las tarjetas para que se vean mejor en pantallas más grandes.
+Cambiamos la altura de las imágenes del carrusel.
+
 Pantallas medianas (tablets):
-Ajustamos el tamaño del logo y las tarjetas para que se vean mejor en pantallas más pequeñas.
+Ajustamos el tamaño del logo y las tarjetas para que se vean mejor en pantallas medianas.
 Cambiamos la altura de las imágenes del carrusel.
 
 Pantallas pequeñas (celulares):
 Hacemos ajustes adicionales para asegurar que todo el contenido se vea correctamente en pantallas pequeñas.
 Reducimos tamaños de fuente e imágenes para mejorar la legibilidad.
 
-Comentarios en el código
+
+se adapto la pagina a eBOOK
+se cambiaron las imagenes
+se cambio el logo
+
+se agrego una pagina para la breve descripcion
+
+se agrego una media queries para las pantallas mas grandes
+
+Se agrego una pagina para el registro
+se cambio el los estilos y colores de los parrafos y titulos
+se agrego los links para las redes sociales
+se cambio el fondo de pantalla
+
+se agrego en el formulario el enlace para formspree
+
+Se modifico el CSS para adaptar las modificaciones
+
+
+
+
+mas Comentarios en el código
