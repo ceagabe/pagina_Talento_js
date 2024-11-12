@@ -70,13 +70,9 @@ nav {
 
 /* Estilos para el carrusel */
 .carousel {
-    margin-top: 20px;
+    margin: 20px;
     /* Espacio superior antes del carrusel */
-
-
-    align-items: center;
-    text-align: center;
-    align-content: center;
+   
 
 }
 
@@ -85,16 +81,8 @@ nav {
     /* Altura fija de las imágenes */
     object-fit: cover;
     /* Las imágenes cubren todo el espacio disponible */
-    align-self: start;
-    align-items: flex-end;
-    margin-left: 20vh;
-
-
-
+       
 }
-
-
-
 
 
 
@@ -307,17 +295,34 @@ footer .RSocial {
     display: flex;
 }
 
-.contenedor {
-
+.contenedor{
     color: #1a5794;
+    padding: 20px;
+}
+
+.input-group {
+
+   
     display: grid;
-    grid-template-columns: repeat(3, 1f);
-
-    margin: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
     padding: 100px;
-
+    
 
 }
+
+.input-field{
+    
+    width: 40%;
+    
+}
+
+.input-field > input{
+    width: 100%;
+    }
+
+
 
 .subtitulo {
     padding: 20px;
