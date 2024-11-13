@@ -331,10 +331,16 @@ footer .RSocial {
 }
 
 
-#seccion1 {
+.descripcion {
 
     color: rgba(250, 246, 250,1);
     
     padding: 20px;
     margin: 20px;
+}
+
+#seccion1{
+    border: 2px solid red;
+padding: 10px;
+border-radius: 10px;
 }
