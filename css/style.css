@@ -92,7 +92,7 @@ nav {
     /* Centramos el texto */
     margin-top: 40px;
     /* Espacio superior */
-    color: blue;
+    color: #0056b3;
 }
 
 /* Estilos para las tarjetas de productos */
@@ -129,7 +129,7 @@ footer {
 footer a {
     text-decoration: none;
     /* Quitamos el subrayado de los enlaces */
-    color: #007bff;
+    color: #0056b3;
     /* Color azul para el enlace */
     font-size: 18px;
     /* Tamaño del texto */
@@ -162,7 +162,7 @@ footer textarea {
 footer button {
     padding: 10px 20px;
     /* Espacio interno del botón */
-    background-color: #007bff;
+    background-color: #0056b3;
     /* Color de fondo azul */
     color: white;
     /* Color del texto en blanco */
@@ -282,12 +282,12 @@ footer .RSocial {
 
 .parrafo_quienes_somos {
     padding: 20px;
-    color: blue;
+    color: #133f6b;
 
 }
 
 .titulo_quienes_somos{
-    color: blue;
+    color: #133f6b ;
 }
 
 
@@ -296,7 +296,7 @@ footer .RSocial {
 }
 
 .contenedor{
-    color: #1a5794;
+    color: #133f6b;
     padding: 20px;
 }
 
@@ -307,14 +307,14 @@ footer .RSocial {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
     margin: 10px;
-    padding: 100px;
+    padding: 10px;
     
 
 }
 
 .input-field{
     
-    width: 40%;
+    width: 50%;
     
 }
 
