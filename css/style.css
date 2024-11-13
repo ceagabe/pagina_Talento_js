@@ -92,7 +92,7 @@ nav {
     /* Centramos el texto */
     margin-top: 40px;
     /* Espacio superior */
-    color: #0056b3;
+    color: rgba(250, 246, 250,1);
 }
 
 /* Estilos para las tarjetas de productos */
@@ -282,12 +282,12 @@ footer .RSocial {
 
 .parrafo_quienes_somos {
     padding: 20px;
-    color: #133f6b;
+    color: rgba(250, 246, 250,1);;
 
 }
 
 .titulo_quienes_somos{
-    color: #133f6b ;
+    color: rgba(250, 246, 250,1); ;
 }
 
 
@@ -296,7 +296,7 @@ footer .RSocial {
 }
 
 .contenedor{
-    color: #133f6b;
+    color: rgba(250, 246, 250,1);;
     padding: 20px;
 }
 
@@ -333,7 +333,8 @@ footer .RSocial {
 
 #seccion1 {
 
-    color: rgb(10, 25, 235);
+    color: rgba(250, 246, 250,1);
+    
     padding: 20px;
     margin: 20px;
 }
