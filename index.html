@@ -11,18 +11,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-     
+
     <!-- Importamos la fuente 'Kanit' para usar en nuestro sitio -->
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;600&display=swap" rel="stylesheet">
 
     <!-- Enlace al CSS de Bootstrap para ayudarnos con estilos y diseño responsive -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Título de la página que aparece en la pestaña del navegador -->
-    <title>Talento Tech</title>
 
     <!-- Enlace a nuestro archivo de estilos CSS personalizado -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+    
+    <title>Talento Tech</title>
 </head>
 
 <body>
@@ -47,7 +47,8 @@
             <!-- Sección derecha del menú con iconos -->
             <div class="nav_inicio iconos">
                 <!-- Icono del carrito de compras -->
-                <a href="#"><box-icon class='icono' name='cart' color='white'></box-icon></a>
+                <!-- <a href="#"><box-icon class='icono' name='cart' color='white'></box-icon></a>-->
+                <a href="./pages/carrito.html" class="icono-carrito"> 🛒<span id="contador-carrito">0</span></a>
                 <!-- Icono del perfil de usuario -->
                 <a href="./pages/registro.html"><box-icon class='icono' name='user-circle' color='white'></box-icon></a>
             </div>
@@ -62,7 +63,8 @@
             <!-- Indicadores (puntos) para cambiar entre las imágenes del carrusel -->
             <div class="carousel-indicators">
                 <!-- Botón para la primera imagen -->
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
                 <!-- Botón para la segunda imagen -->
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
                 <!-- Botón para la tercera imagen -->
@@ -123,10 +125,11 @@
                         <p class="card-text">Breve descripción:</p>
                     </a>
                     <p>Precio: $2500</p>
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">agregar <box-icon class='icono'
-                            name='cart' color='white'></box-icon></a>
                 </div>
+                <button onclick="agregarAlcarrito('Un papa para Santi','$2500')"
+                    class="btn btn-success">Agregar</button>
             </div>
+
             <!-- Tarjeta de producto -->
             <div class="card" style="width: 18rem;">
                 <!-- Imagen del producto -->
@@ -139,10 +142,10 @@
                     <a href="./pages/breve_descripcion.html#seccion2" class="seccion2">
                         <p class="card-text">Breve descripción:</p>
                     </a>
-                    <p>Precio: $2500</p>
-                    <a name="" id="" class="btn btn-primary" href="#" role="button">agregar <box-icon class='icono'
-                            name='cart' color='white'></box-icon></a>
+                    <p>Precio: $3500</p>
                 </div>
+                <button onclick="agregarAlcarrito('Un amor para el presidente','$3500')"
+                    class="btn btn-success">Agregar</button>
             </div>
 
             <!-- Tarjeta de producto -->
@@ -157,12 +160,11 @@
                     <a href="./pages/breve_descripcion.html#seccion3" class="seccion3">
                         <p class="card-text">Breve descripción:</p>
                     </a>
-                    <p>Precio: $2500</p>
-                    <a name="" id="comprar" class="btn btn-primary" href="#" role="button">agregar <box-icon
-                            class='icono' name='cart' color='white'></box-icon></a>
+                    <p>Precio: $5500</p>
                 </div>
+                <button onclick="agregarAlcarrito('El Alpha enamorado','$5500')"
+                    class="btn btn-success">Agregar</button>
             </div>
-
 
             <!-- Tarjeta de producto -->
             <div class="card" style="width: 18rem;">
@@ -176,11 +178,10 @@
                     <a href="./pages/breve_descripcion.html#seccion4" class="seccion4">
                         <p class="card-text">Breve descripción:</p>
                     </a>
-                    <p>Precio: $2500</p>
-                    <a name="" id="comprar" class="btn btn-primary" href="#" role="button">agregar <box-icon class=''
-                            name='cart' color='white'></box-icon></a>
-
+                    <p>Precio: $4300</p>
                 </div>
+                <button onclick="agregarAlcarrito('A primera vista','$4300')"
+                    class="btn btn-success">Agregar</button>
             </div>
 
             <!-- Tarjeta de producto -->
@@ -196,10 +197,9 @@
                         <p class="card-text">Breve descripción:</p>
                     </a>
                     <p>Precio: $2500</p>
-                    <a name="" id="comprar" class="btn btn-primary" href="#" role="button">agregar <box-icon
-                            class='icono' name='cart' color='white'></box-icon></a>
-
                 </div>
+                <button onclick="agregarAlcarrito('Una efermera para el presidente','$2500')"
+                    class="btn btn-success">Agregar</button>
             </div>
 
             <!-- Tarjeta de producto -->
@@ -214,11 +214,11 @@
                     <a href="./pages/breve_descripcion.html#seccion6" class="seccion6">
                         <p class="card-text">Breve descripción:</p>
                     </a>
-                    <p>Precio: $2500</p>
-                    <a name="" id="comprar" class="btn btn-primary" href="#" role="button">agregar <box-icon
-                            class='icono' name='cart' color='white'></box-icon></a>
+                    <p>Precio: $7200</p>
 
                 </div>
+                <button onclick="agregarAlcarrito('El coronel','$7200')"
+                    class="btn btn-success">Agregar</button>
             </div>
 
 
@@ -244,11 +244,12 @@
             <h2 id="redes">Seguinos:</h2>
             <!-- Iconos de las redes sociales -->
             <a href="https://www.facebook.com/"><img class="RSocial" src="./image/Fcabook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/"><img class="RSocial" src="./image/Instagrampng.png" alt="Instagram"></a>         
+            <a href="https://www.instagram.com/"><img class="RSocial" src="./image/Instagrampng.png"
+                    alt="Instagram"></a>
             <a href="https://www.tiktok.com/es/"><img class="RSocial" src="./image/Tik tok1.png" alt="TikTok"></a>
             <a href="https://x.com/__x"><img class="RSocial" src="./image/Twiter.jpg" alt="Twitter"></a>
-            
-            
+
+
         </div>
     </footer>
 
@@ -257,6 +258,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Script para los iconos de Boxicons -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
